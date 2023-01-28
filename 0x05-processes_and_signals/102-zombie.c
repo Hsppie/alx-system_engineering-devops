@@ -15,17 +15,13 @@
 pid_t walking_dead(void)
 {
 	pid_t walker;
-
 	walker = fork();
 
 	if (walker)
 	{
 		printf("Zombie process created, PID: %d\n", walker);
-
 		return (walker);
-
 	}
-
 	return (ALIVE);
 }
 
@@ -48,5 +44,6 @@ int main(void)
 	}
 	pause();
 	return (ALIVE);
+
 
 }
