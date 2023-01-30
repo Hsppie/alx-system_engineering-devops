@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
-
+#clock
 hour=0
 
 while [ $hour -le 12 ]
-
 do
-
   echo "Hour: $hour"
 
   minute=1
@@ -23,3 +21,4 @@ do
   (( hour++ ))
 
 done
+
