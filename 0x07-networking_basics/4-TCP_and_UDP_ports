@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# TCP and UDP ports - listening ports, PID and name of the program
+# to which each socket belongs
+
+
+netstat -lp
