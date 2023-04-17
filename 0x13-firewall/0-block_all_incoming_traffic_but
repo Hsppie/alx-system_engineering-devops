@@ -1,0 +1,11 @@
+sudo apt install ufw
+#default ufw rules
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+#Allowing SSH Connections
+sudo ufw allow 22
+#allowing http
+sudo ufw allow 80
+#allowing https
+sudo ufw allow 443
